@@ -11,7 +11,7 @@
 	width:350px;
 	height:380px;
 	margin-bottom:1em; /*动物的名字、图片和详细信息之间设置间隔*/
-	box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+	
 }
 
 /*展示动物的趣闻的文本为斜体*/
@@ -30,9 +30,17 @@
 }
 
 /*动物的名字、图片和详细信息（趣闻、列表项和描述）周围使用边框。*/
-.border {
-	border: 1px solid black;
-	border-radius:4px;
-	padding:5px;
+.box1 {
+	border: 1px solid lightgray;
+	padding:10px;
 	width:300px;
+	box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+}
+
+.box2 {
+border: 1px solid lightgray;
+}
+
+.content {
+	padding:10px;
 }
